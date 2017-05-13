@@ -1,0 +1,383 @@
+ps
+    ps axj | grep cmdName
+    ps -A -ostime,etime,args | grep cmdName
+pgrep
+    pgrep sleep
+pkill 
+    pkil sleep
+pstree
+    pstree -ap processNum
+top [options]
+    -b
+    -n
+nice [options] [cmd [args]]
+    nice -n -20 cmdName &   
+renice [options] [ -p pid]
+    renice -n 10 -p pidNum    
+skill
+
+nohup
+
+pidof [options] program
+
+cron
+
+init
+
+runlevel
+
+halt
+shutdown
+reboot
+
+service
+    service servername stop|start|restart
+    /etc/init.d/
+
+ifconfig
+
+route
+
+tcpdump
+
+mount
+unmount
+
+sync
+
+ulimit
+    -c coredumpFile
+    -f fileSize
+
+lsmod
+insmod
+rmmod
+modprobe
+depmod
+modinfo
+
+env [options] [envname=enval ... ] [cmd]
+    env | grep hello
+    hello=world env | grep hello
+[envname=enval ...] cmd
+
+watch [options] cmdName
+    -n 
+
+nm cmdName
+strip cmdName
+------------------------------------------------------------------------
+command-substution
+    `basename filepath`
+    $(basename filepath)
+------------------------------------------------------------------------
+math-exp
+    `expr 1 + 1`
+    $((1 + 1))
+    ((1 + 1))
+------------------------------------------------------------------------
+io redirect
+
+    >filename
+    : >filename
+    
+    cmd >filename
+    cmd 1>filename
+
+    cmd >>filename
+    cmd 1>>filename
+
+    cmd 2>filename
+    cmd 2>>filename
+
+    cmd &>filename
+
+    cmd 2>&1
+    cmd i>&j
+    cmd 1>&j
+    cmd >&j
+
+    0<filename
+    <filename
+
+    [j]<>filename
+    |
+    
+    n<&-
+    <&- ; 0>&-
+
+    n>&-
+    >&- ; 1>&-
+    ------------------------------------------------------------------------
+    redirect input
+        exec 6<&0
+        exec <filename
+        ...
+        exec 0<&6 6<&-
+    redirect output
+        exec 6>&1
+        exec >filename
+        ...
+        exec >&6 6>&-
+    redirect input/ouput
+        exec 5<&0; exec <infile;
+        exec 6>&1; exec >outfile;
+
+        cat - |tr 'a-z' 'A-Z'
+
+        exec 0<&5; exec 5<&-;
+        exec 6>&1; exec 6>&-
+
+    ------------------------------------------------------------------------
+------------------------------------------------------------------------
+here document
+    cmd <<LIMITSTRING
+        ...
+        ...
+    LIMITSTRING
+
+    cmd <<'LIMITSTRING'
+        ...
+        ...
+    LIMITSTRING
+    
+    cmd <<"LIMITSTRING"
+        ...
+        ...
+    LIMITSTRING
+    
+    cmd <<\LIMITSTRING
+        ....
+    LIMITSTRING
+
+    #redirect functio input
+    functioName <<LIMITSTRING
+        ...
+    LIMITSTRING
+
+    #mark off shell script
+    : <<LIMITSTRING
+        ...
+    LIMITSTRING
+
+here strings
+    cmd <<<$strings
+    man bash
+        here strings
+------------------------------------------------------------------------
+regular expression
+    basic reg-exp
+        *
+        .
+        ^
+        $
+        []
+        \
+        \< \>
+    extend reg-exp (egrep, awk, perl)
+        ?
+        +
+        \{m, n\}
+        ()
+        |
+        [:class:]
+globbing
+    *
+    ?
+    []
+    {a, b, c}
+    ^ ==> [^]
+------------------------------------------------------------------------
+subshell
+    start subshell
+        ./script.sh
+        extern-cmd
+        (cmd1; cmd2)
+        cmd1 | cmd2
+    BASH_SUBSHELL
+        echo $BASH_SUBSHELL; (echo $BASH_SUBSHELL); echo $BASH_SUBSHELL;
+    local variable
+        name=hello; echo $name; (name=world; echo $name); echo $name
+------------------------------------------------------------------------
+restrict shell
+------------------------------------------------------------------------
+wait [pid ...]
+------------------------------------------------------------------------
+command-substution
+    `cmd`
+    $(cmd)
+------------------------------------------------------------------------
+process-substution
+    <(cmd)
+    >(cmd)
+    /dev/fd/ 
+
+    comm <(ls -l) <(ls -al)
+    cat <(ls -l)
+------------------------------------------------------------------------
+function 
+    function functionName
+    {
+
+    }
+
+    functionName()
+    {
+
+    }
+
+    functionName $arg1 $arg2 
+    
+    indirect variable reference
+        a=b;b=c; echo ${!a}
+    deference
+        a=b;b=c; 
+        x=\$$a;
+        y=$(eval "expr $x")
+        echo $c;
+        
+    exit status
+    return
+    
+    function max-return 255
+        use global-variable
+        use command-substution
+    function redirect 
+        functionName <file 
+    local-variable
+        local name=hello
+------------------------------------------------------------------------
+alias [aliasname=[aliasvalue] ...]
+    alias ll='ls -lrt'
+unalias [aliasname ..]
+    -a
+------------------------------------------------------------------------
+command-list
+    command1 && command2 && command3
+    command1 || command2 && command3 
+------------------------------------------------------------------------
+array
+    ${arrayName[@]}
+    ${arrayName[*]}
+    ${#arrayName[@]}
+    ${#arrayName[*]}
+
+    ----------- 
+    arrayName[0]=hello; arrayName[1]=world;
+    arrayName = (hello world);
+    arrayName = ([0]=hello [1]=world);
+    ------------- 
+    varname=hello 
+    ${varnme[*]}
+    ${#varnme[*]}
+    ${varnme[@]}
+    ${#varnme[@]}
+    -----------
+subarray
+    ${arrayName[@]:pos}
+    ${arrayName[@]:pos:num}
+    
+    ${arrayName[*]:pos}
+    ${arrayName[*]:pos:num}
+
+match
+    ${arrayName[@]#pattern}
+    ${arrayName[@]##pattern}
+    ${arrayName[@]%pattern}
+    ${arrayName[@]%%pattern}
+    
+    ${arrayName[*]#pattern}
+    ${arrayName[*]##pattern}
+    ${arrayName[*]%pattern}
+    ${arrayName[*]%%pattern}
+substution
+    ${arrayName[@]/pattern/subs}    #common
+    ${arrayName[@]//pattern/subs}   #global
+    ${arrayName[@]/#pattern/subs}   #left
+    ${arrayName[@]/%pattern/subs}   #right
+array tool
+    declare -a arrayName
+    read -a arrayName
+    
+    #copy
+    array2 = ("${array1[@]}")
+    #append
+    array2 = ("${array1[@]}" "new_elem")
+    #merge
+    array3 = ("${array1[@]}" "${array2[@]}")
+------------------------------------------------------------------------
+/dev/
+    df
+    /dev/null 
+    /dev/zero 
+    /dev/tcp 
+    /dev/udp
+    /dev/random 
+    /dev/urandom 
+    
+    bash --enable-net- redirections
+        bash$ exec 5<>/dev/tcp/www.net.cn/80
+        bash$ echo -e "GET / HTTP/1.0\n" >&5
+        bash$ cat <&5""
+        bash$ lsof -p $$a
+------------------------------------------------------------------------
+/proc/ 
+    /proc/pidNum
+        cmdline
+        exe 
+        status
+        stat
+------------------------------------------------------------------------
+/dev/null 
+    cmd &>/dev/null 
+    cat /dev/null >tmp.log
+    : >tmp.log
+    >tmp.log 
+/dev/zero
+    head -1 | od -b -a 
+    dd if=/dev/zero of=filename bs=1024 count=12
+------------------------------------------------------------------------
+debug
+    echo
+    tee
+
+    sh -n script
+    set -n script
+    set -o noexec
+
+    sh -v script
+    set -v
+    set -o verbose
+
+    sh -x script
+    set -x 
+    set -o xtrace
+
+    trap
+
+    bashdb
+------------------------------------------------------------------------
+set -o option-name
+set -option-abbrev
+    set -o verbose 
+    set -v
+
+set +o option-name
+set +option-abbrev
+    set +o verbose 
+    set +v
+
+#!/bin/bash -v
+#!/bin/bash +v
+------------------------------------------------------------------------
+gzexe script.sh 
+gzexe -d script.sh 
+
+------------------------------------------------------------------------
+bash 2
+    string extend
+        echo $'sdf\t\t'; echo -e "sdf\t\t"
+    indirect reference
+        a=b;b=c; 
+        echo ${!a}
+        eval "echo $(echo \$$a)"

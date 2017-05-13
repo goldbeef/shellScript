@@ -1,0 +1,22 @@
+脚本启动于 2016年12月04日 星期日 15时33分06秒
+]0;goldbeef@goldbeef: ~/shellScriptgoldbeef@goldbeef:~/shellScript$ hello 
+程序 'hello' 已包含在下列软件包中：
+ * hello
+ * hello-debhelper
+请尝试：sudo apt-get install <选定的软件包>
+]0;goldbeef@goldbeef: ~/shellScriptgoldbeef@goldbeef:~/shellScript$ sdfsdf
+sdfsdf：未找到命令
+]0;goldbeef@goldbeef: ~/shellScriptgoldbeef@goldbeef:~/shellScript$ date
+2016年 12月 04日 星期日 15:33:14 CST
+]0;goldbeef@goldbeef: ~/shellScriptgoldbeef@goldbeef:~/shellScript$ e[Kquit
+未找到 'quit' 命令，您要输入的是否是：
+ 命令 'qgit' 来自于包 'qgit' (universe)
+ 命令 'luit' 来自于包 'x11-utils' (main)
+ 命令 'quilt' 来自于包 'quilt' (main)
+ 命令 'quiz' 来自于包 'bsdgames' (universe)
+ 命令 'quot' 来自于包 'quota' (main)
+quit：未找到命令
+]0;goldbeef@goldbeef: ~/shellScriptgoldbeef@goldbeef:~/shellScript$ xit[K[K[Kexit
+exit
+
+脚本完成，于 2016年12月04日 星期日 15时33分23秒

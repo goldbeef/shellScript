@@ -1,0 +1,5 @@
+#! /bin/bash 
+who |grep $1
+echo hello1
+echo hello2
+echo hello3

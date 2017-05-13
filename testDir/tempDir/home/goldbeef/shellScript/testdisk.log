@@ -1,0 +1,265 @@
+
+
+Wed Nov 23 07:27:47 2016
+Command line: TestDisk
+
+TestDisk 6.14, Data Recovery Utility, July 2013
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.13.0-57-generic (#95-Ubuntu SMP Fri Jun 19 09:27:48 UTC 2015) i686
+Compiler: GCC 4.8
+Compilation date: 2013-10-29T01:29:29
+ext2fs lib: 1.42.9, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       976773168 sectors
+/dev/sda: user_max   976773168 sectors
+/dev/sda: native_max 976773168 sectors
+/dev/sda: dco        976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 1 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - ST500LT012-9WS142, S/N:W0VHBR0N, FW:0001SDM1
+
+Partition table type (auto): Intel
+Disk /dev/sda - 500 GB / 465 GiB - ST500LT012-9WS142
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/1/1
+NTFS at 6528/1/1
+NTFS at 24675/1/1
+get_geometry_from_list_part_aux head=255 nbr=5
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+get_geometry_from_list_part_aux head=240 nbr=2
+get_geometry_from_list_part_aux head=255 nbr=5
+ 1 * HPFS - NTFS              0   1  1  6528   0 61  104872318 [Win7]
+     NTFS, blocksize=4096, 53 GB / 50 GiB
+ 2 E extended LBA          6528   0 62 60801  47 46  871898691
+ 5 L HPFS - NTFS           6528   1  1 24674 254 63  291531492
+     NTFS, blocksize=4096, 149 GB / 139 GiB
+   X extended             24675   0  1 33763  31  2  146000675
+ 6 L HPFS - NTFS          24675   1  1 33763  31  2  146000612
+     NTFS, blocksize=4096, 74 GB / 69 GiB
+   X extended             33763  31  3 60305  39 22  426397754
+ 7 L Linux                33763  31 61 60305  39 22  426397696
+     ext4 blocksize=4096 Large file Sparse superblock Recover, 218 GB / 203 GiB
+   X extended             60305  39 23 60801  47 46    7968768
+ 8 L Linux Swap           60305  71 55 60801  47 46    7966720
+     SWAP2 version 1, pagesize=4096, 4078 MB / 3890 MiB
+
+
+dir_partition inode=2
+ 7 L Linux                33763  31 61 60305  39 22  426397696
+     ext4 blocksize=4096 Large file Sparse superblock Recover, 218 GB / 203 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 17-Jan-2016 20:37 .
+       2 drwxr-xr-x     0      0      4096 17-Jan-2016 20:37 ..
+      11 drwx------     0      0     16384 17-Dec-2014 00:29 lost+found
+ 4456449 drwxr-xr-x     0      0     12288 22-Nov-2016 22:32 etc
+ 1572865 drwxr-xr-x     0      0      4096 17-Dec-2014 01:06 media
+ 2621441 drwxr-xr-x     0      0      4096 24-Jun-2015 22:21 bin
+ 9961473 drwxr-xr-x     0      0      4096 24-Jun-2015 22:39 boot
+ 7602177 drwxr-xr-x     0      0      4096 23-Jul-2014 06:17 dev
+ 8650753 drwxr-xr-x     0      0      4096 18-Jan-2016 08:58 home
+ 8126465 drwxr-xr-x     0      0      4096 20-Nov-2016 14:00 lib
+ 2883585 drwxr-xr-x     0      0      4096 11-Apr-2014 06:11 mnt
+ 2359297 drwxr-xr-x     0      0      4096 26-Oct-2016 23:13 opt
+ 5505025 drwxr-xr-x     0      0      4096 11-Apr-2014 06:11 proc
+ 11534337 drwx------     0      0      4096 23-Oct-2016 21:57 root
+ 7340033 drwxr-xr-x     0      0      4096 23-Jul-2014 06:19 run
+ 3014657 drwxr-xr-x     0      0     12288 20-Nov-2016 14:00 sbin
+ 7471105 drwxr-xr-x     0      0      4096 23-Jul-2014 05:57 srv
+  786433 drwxr-xr-x     0      0      4096 13-Mar-2014 09:42 sys
+ 6815745 drwxrwxrwt     0      0      4096 23-Nov-2016 07:28 tmp
+ 10223617 drwxr-xr-x     0      0      4096 14-Jul-2015 23:13 usr
+ 2097153 drwxr-xr-x     0      0      4096  7-Jun-2015 10:34 var
+      16 lrwxrwxrwx     0      0        33 24-Jun-2015 22:38 initrd.img
+      12 lrwxrwxrwx     0      0        30 24-Jun-2015 22:38 vmlinuz
+ 5242881 drwxrwxr-x     0      0      4096 17-Dec-2014 00:32 cdrom
+ 3145729 drwxrwxrwx     0      0      4096 18-Jan-2016 08:53 data
+      14 lrwxrwxrwx     0      0        33 24-Jun-2015 22:37 initrd.img.old
+      15 lrwxrwxrwx     0      0        30 24-Jun-2015 22:37 vmlinuz.old
+
+dir_partition inode=8650753
+ 7 L Linux                33763  31 61 60305  39 22  426397696
+     ext4 blocksize=4096 Large file Sparse superblock Recover, 218 GB / 203 GiB
+Directory /home
+ 8650753 drwxr-xr-x     0      0      4096 18-Jan-2016 08:58 .
+       2 drwxr-xr-x     0      0      4096 17-Jan-2016 20:37 ..
+ 8650754 drwxr-xr-x  1000   1000      4096 23-Nov-2016 07:24 goldbeef
+ 8650984 drwxr-xr-x  1001   1001      4096 24-May-2015 23:08 redhat
+ 9187984 drwxr-xr-x     0      0      4096 18-Jan-2016 08:58 svn
+
+dir_partition inode=8650754
+ 7 L Linux                33763  31 61 60305  39 22  426397696
+     ext4 blocksize=4096 Large file Sparse superblock Recover, 218 GB / 203 GiB
+Directory /home/goldbeef
+ 8650754 drwxr-xr-x  1000   1000      4096 23-Nov-2016 07:24 .
+ 8650753 drwxr-xr-x     0      0      4096 18-Jan-2016 08:58 ..
+ 8650755 -rw-r--r--  1000   1000       220 17-Dec-2014 00:32 .bash_logout
+ 8653107 -rwxr-xr-x  1000   1000       828  9-Jun-2016 20:47 .profile
+ 8650757 -rw-r--r--  1000   1000      8980 17-Dec-2014 00:32 examples.desktop
+ 8652667 -rw-r--r--  1000   1000      3698 14-Jul-2015 23:15 .bashrc
+ 8651258 -rw-------  1000   1000       175 22-Nov-2016 22:19 .Xauthority
+ 8650759 -rw-r--r--  1000   1000        25 17-Dec-2014 01:05 .dmrc
+ 8650761 -rw-------  1000   1000        43 22-Nov-2016 22:19 .xsession-errors
+ 8650762 drwxr-xr-x  1000   1000      4096 17-Dec-2014 22:23 Desktop
+ 8651156 drwx------  1000   1000      4096 22-Oct-2016 19:57 .gnome2
+ 8651339 drwx------  1000   1000      4096 17-Dec-2014 18:55 .ssh
+ 8653457 -rw-------  1000   1000      1132  7-Aug-2016 15:40 .mysql_history
+ 8651157 drwx------  1000   1000      4096 17-Dec-2014 18:34 .gnome2_private
+ 8650780 drwx------  1000   1000      4096 17-Dec-2014 19:04 .remmina
+ 8650767 drwxrwxr-x  1000   1000      4096 17-Dec-2014 19:30 .eclipse
+ 8651899 drwxrwxr-x  1000   1000      4096 17-Dec-2014 19:30 .swt
+ 8650770 drwx------  1000   1000      4096 26-Oct-2016 23:19 .config
+ 8650773 drwx------  1000   1000      4096 27-Oct-2016 15:52 .cache
+ 8650783 drwx------  1000   1000      4096 22-Nov-2016 22:20 .gconf
+ 8650792 drwxr-xr-x  1000   1000      4096 17-Dec-2014 01:05 .local
+ 8650945 -rw-------  1000   1000     21563 23-Nov-2016 07:19 .bash_history
+ 8650949 -rw-rw-r--  1000   1000       131  1-Jul-2015 21:54 .xinputrc
+ 8650808 -rw-------  1000   1000     70194 22-Nov-2016 22:19 .ICEauthority
+ 8650923 drwx------     0      0      4096 17-Dec-2014 01:16 .dbus
+ 8650989 drwx------     0      0      4096 17-Dec-2014 01:16 .gvfs
+ 8650940 drwx------  1000   1000      4096 17-Dec-2014 01:17 .compiz
+ 8650778 -rw-------  1000   1000        43 20-Nov-2016 09:42 .xsession-errors.old
+ 8651082 drwx------  1000   1000      4096 17-Dec-2014 02:06 .mozilla
+ 8653619 -rw-r--r--  1000   1000       261 28-Jun-2015 19:52 .pam_environment
+ 8651388 -rw-------  1000   1000       640 22-Nov-2016 08:44 .lesshst
+ 8650771 drwx------  1000   1000      4096 18-Dec-2014 00:42 .pki
+ 8651474 drwxrwxr-x  1000   1000      4096  9-Jun-2015 22:59 helloWorld
+ 8651011 -rw-------  1000   1000  29818880  9-May-2013 11:00 iNodeClient_Linux.tar
+ 8651134 drwx------  1000   1000      4096 17-Dec-2014 06:57 .mysql
+ 8651235 drwxr-xr-x  1000   1000      4096 20-Nov-2016 21:12 桌面
+ 8651236 drwxr-xr-x  1000   1000     12288 20-Nov-2016 21:07 下载
+ 8651237 drwxr-xr-x  1000   1000      4096 17-Dec-2014 18:23 模板
+ 8651238 drwxr-xr-x  1000   1000      4096 17-Dec-2014 18:23 公共的
+ 8651239 drwxr-xr-x  1000   1000      4096 17-Dec-2014 18:23 文档
+ 8651240 drwxr-xr-x  1000   1000      4096 17-Dec-2014 18:23 音乐
+ 8651241 drwxr-xr-x  1000   1000      4096 14-Mar-2016 13:34 图片
+ 8651242 drwxr-xr-x  1000   1000      4096 17-Dec-2014 18:23 视频
+ 8651663 drwxrwxr-x  1000   1000      4096 17-Dec-2014 19:31 workspace
+ 8650891 drwxr-xr-x  1000   1000      4096 18-Dec-2014 00:24 iNodeClient
+ 8651211 drwx------  1000   1000      4096 24-Apr-2015 19:40 data
+ 8781871 drwx------  1000   1000      4096 15-Aug-2015 00:26 fasDecompressOrg
+ 8781983 drwx------  1000   1000      4096 20-Nov-2016 16:22 .stardict
+ 8651179 -rw-r-----  1000   1000  18229450 20-Dec-2014 01:34 sogou_pinyin_linux_1.1.0.0037_i386.deb
+ 8781974 drwxrwxr-x  1000   1000      4096  8-Feb-2015 16:54 svn
+ 8654212 -rw-r--r--  1000   1000     10977 23-Oct-2016 21:37 .vimrc
+ 8653172 drwx------  1000   1000      4096  8-Feb-2015 17:08 .gphoto
+ 8782331 drwxrwxr-x  1000   1000      4096  8-Feb-2015 19:30 svnTest
+ 8782333 drwxrwxr-x  1000   1000      4096  8-Feb-2015 17:16 .subversion
+ 8782391 drwxrwxr-x  1000   1000      4096  8-Feb-2015 20:39 demo
+ 9188232 drwxrwxr-x  1000   1000      4096 24-Oct-2016 08:28 utest
+ 8781977 drwxrwxr-x  1000   1000      4096  7-Oct-2016 11:49 test
+ 8652642 drwxrwxr-x  1000   1000      4096 11-May-2016 22:52 c++primer
+ 8653764 -rw-------  1000   1000     17786 23-Nov-2016 07:14 .viminfo
+ 9073779 drwxr-xr-x     0      0      4096 23-Nov-2016 07:24 home
+ 8654257 drwxr-xr-x     0      0      4096  7-May-2015 21:43 Git
+ 8912897 drwxr-xr-x     0      0      4096 12-Jul-2015 22:53 .vim
+ 8654630 -rw-rw-r--  1000   1000       538 12-Jul-2015 14:09 hello.c
+ 9709797 drwx------  1000   1000      4096 27-Oct-2016 08:51 .Skype
+ 9317506 drwxrwxr-x  1000   1000      4096 27-Oct-2016 15:23 trains
+ 9977521 drwxr-xr-x     0      0      4096 21-Jul-2015 21:01 gdb
+ 8782455 drwxr-xr-x     0      0      4096  9-May-2015 23:50 boost
+ 8654279 -rw-r--r--     0      0        56  6-May-2015 20:52 .gitconfig
+X8782454 drwxrwxrwx     0      0         0 20-Nov-2016 21:14 shell
+ 8656098 -rw-rw-r--  1000   1000        14 24-May-2015 18:54 readMe
+ 8784540 drwxrwxr-x  1000   1000      4096 30-May-2015 10:00 driver
+ 8784548 drwxrwxr-x  1000   1000      4096 24-May-2015 16:10 linux-2.6.32.66
+ 8655880 -rw-r-----  1000   1000 382955520 27-May-2015 22:28 linux-2.6.32.66.tar
+ 8785187 drwxrwxr-x  1000   1000      4096 20-May-2015 17:15 linux-3.12.43
+ 8656792 -rw-r-----  1000   1000 544778240 30-May-2015 10:22 linux-3.12.43.tar
+ 8922074 drwxr-xr-x     0      0      4096 14-Jul-2015 21:39 Clang
+ 8656840 -rwxrw-r--  1000   1000        26 30-May-2015 22:50 what
+ 8656509 -rwxrwxr-x  1000   1000      7293 30-May-2015 22:45 sdfd
+ 8653203 -rwxrwxr-x  1000   1000      7859 13-Sep-2016 08:23 a.out
+ 8781860 drwxrwxr-x  1000   1000      4096 10-Jun-2015 23:26 stack
+ 8781845 drwxrwxr-x  1000   1000      4096 19-Jul-2015 02:16 udp
+ 8785953 drwx------     0      0      4096 28-Jun-2015 19:59 .sunpinyin
+ 8784524 drwxrwxr-x  1000   1000      4096  1-Jul-2015 21:02 build-udp-Desktop-Debug
+ 8785966 drwxrwxr-x  1000   1000      4096  1-Jul-2015 21:59 .ibus
+ 8651325 -rw-rw-r--  1000   1000         0  5-Jul-2015 18:23 test.sh
+ 8653874 -rw-------  1000   1000        93 22-Nov-2016 07:53 .kshdb_hist
+ 8921920 drwxr-xr-x  1000   1000      4096 12-Jul-2015 22:56 .vim-fuf-data
+ 8654631 -rw-rw-r--  1000   1000       272 12-Jul-2015 14:07 test.c
+ 9053034 drwxrwxr-x  1000   1000      4096 12-Jul-2015 08:43 llvm-clang
+ 8921156 drwxr-xr-x     0      0      4096 14-Jul-2015 23:37 ycm_build
+ 8921164 drwxr-xr-x     0      0      4096 12-Jul-2015 09:54 vim-pathogen
+ 8653915 -rw-rw-r--  1000   1000        26 10-Nov-2016 08:52 .lucli
+ 8653841 -rw-rw-r--  1000   1000        75 20-Nov-2016 11:48 .selected_editor
+ 8652846 -rw-rw-r--  1000   1000    145512 23-Nov-2016 07:28 date.log
+ 9063967 drwxr-xr-x     0      0      4096 12-Jul-2015 14:40 configures
+ 8653068 -rw-rw-r--  1000   1000     31760 23-Nov-2016 07:26 testdisk.log
+ 9064437 drwxr-xr-x  1000   1000      4096 10-Apr-2016 17:01 .codeblocks
+X8652977 -rw-r-----  1000   1000      3168 19-Nov-2016 20:48 test6.cpp
+ 9064451 drwxrwxr-x  1000   1000      4096 10-Apr-2016 10:43 lightHttp
+ 9065578 drwxrwxr-x  1000   1000      4096 10-Apr-2016 11:00 VirtualBox VMs
+ 8652822 -rw-rw-r--  1000   1000     18965 29-Sep-2016 05:50 tmp
+ 9977538 drwx------  1000   1000      4096 18-Jul-2015 17:58 .thunderbird
+ 8653188 -rw-rw-r--  1000   1000       119 19-Jul-2015 14:48 .apport-ignore.xml
+ 8656628 -rwxrwxr-x  1000   1000    145871 15-Aug-2015 00:27 wzip
+ 8656631 -rwxrwxr-x  1000   1000  71148949 15-Aug-2015 00:29 linux-2.6.32.66.twz
+ 8656632 -rw-r-----  1000   1000  64476165 27-May-2015 22:28 linux-2.6.32.66.tar.bz2
+ 9064458 drwxrwxr-x  1000   1000      4096 14-Mar-2016 13:29 perlCode
+ 10106272 drwxrwxr-x  1000   1000      4096 17-Mar-2016 00:27 .cpan
+ 9064482 drwxrwxr-x  1000   1000      4096 21-Feb-2016 15:33 studyPath
+ 8654579 -rw-------  1000   1000        46 26-Feb-2016 08:35 dead.letter
+ 9577478 drwxrwxr-x  1000   1000      4096 27-Feb-2016 17:49 .cpanplus
+ 9577484 drwxrwxr-x  1000   1000      4096 28-Feb-2016 10:29 expect
+ 9577486 drwxr-xr-x  1000   1000      4096 27-Feb-2016 22:03 .rpmdb
+ 9064460 drwxr-xr-x     0      0      4096 13-Mar-2016 15:14 .wireshark
+ 9064470 drwxrwxr-x  1000   1000      4096  2-Jun-2016 08:17 redis
+ 8654269 -rw-rw-r--  1000   1000      5303  9-Jun-2016 16:19 .rediscli_history
+ 9189246 drwxrwxr-x  1000   1000      4096 29-Oct-2016 15:59 .wine
+ 9450303 drwxrwxr-x  1000   1000      4096 29-Oct-2016 15:59 Source Insight
+ 8652880 -rw-r-----  1000   1000     22695 10-Apr-2016 16:25 siplus.zip
+ 9065579 drwxrwxr-x  1000   1000      4096 10-Nov-2016 08:33 开源
+ 9064443 drwxrwxr-x  1000   1000      4096 10-Apr-2016 17:01 .designer
+ 9977638 drwxrwxr-x  1000   1000      4096 10-Apr-2016 17:05 redis-project
+ 8652728 -rwxrw-r--  1000   1000       457 10-Apr-2016 19:41 con_gbk.pl
+ 9188971 drwxrwxr-x  1000   1000      4096 29-Jun-2016 21:53 graphiz
+ 9317118 drwxrwxr-x  1000   1000      4096 23-Apr-2016 16:13 xiami
+ 9064481 drwxrwxr-x  1000   1000      4096 11-May-2016 22:50 makefile
+ 9065146 drwxrwxr-x  1000   1000      4096 21-May-2016 15:10 discuz
+ 9577684 drwxrwxr-x  1000   1000      4096  1-Jun-2016 23:51 idear
+ 10240613 drwxrwxr-x  1000   1000      4096 23-Nov-2016 07:18 shellScript
+ 11946958 drwxrwxr-x  1000   1000      4096 13-Aug-2016 07:42 doctor
+ 9073622 drwxrwxr-x  1000   1000      4096 17-Aug-2016 22:38 ruby
+X8651295 -rw-r-----  1000   1000       167 22-Nov-2016 22:20 photorec.ses
+ 9073683 drwxrwxr-x  1000   1000      4096  7-Aug-2016 16:21 .gem
+ 8653760 -rw-rw-r--  1000   1000       152  9-Sep-2016 07:43 无标题文档 1
+ 8653566 -rw-rw-r--  1000   1000      3884 13-Sep-2016 08:24 tmp.log
+ 9073691 drwxrwxr-x  1000   1000      4096 15-Sep-2016 07:47 .umlet
+ 9073711 drwxrwxr-x  1000   1000      4096 15-Sep-2016 07:47 .java
+ 9073715 drwx------  1000   1000      4096 24-Sep-2016 00:13 .kde
+ 6815892 -rw-------  1000   1000      7543 16-Sep-2016 16:49 autosave.xmi
+ 8653504 -rw-r--r--     0      0  16322298 16-Sep-2016 17:06 class diagram.bmp
+ 9317496 drwxrwxr-x  1000   1000      4096  3-Oct-2016 14:04 nginx
+ 8653803 -rw-r-----  1000   1000     29268  3-Oct-2016 14:11 autobench_2.1.1-1_i386.deb
+ 8653859 -rw-r--r--  1000   1000      1697  3-Oct-2016 14:18 .autobench.conf
+ 8653927 -rw-rw-r--  1000   1000       200  3-Oct-2016 14:55 result.tsv
+ 8651321 -rw-r-----  1000   1000   3051520 16-Oct-2016 16:36 clearsilver-0.10.4.tar.gz
+ 9073385 drwxrwxr-x  1000   1000      4096 27-Oct-2016 12:54 Train_homework
+ 9977912 drwxrwxr-x  1000   1000      4096 16-Oct-2016 16:39 clearsilver
+ 8653763 -rw-r--r--     0      0     16211 18-Oct-2016 23:27 .vimrc.bak
+ 8653732 -rw-r--r--  1000   1000     10970 19-Oct-2016 21:10 .vimrc.simple
+ 8653951 -rw-r--r--  1000   1000     16211 19-Oct-2016 21:11 .vimrc.complex
+X8654214 -rw-r-----  1000   1000        85 22-Nov-2016 22:19 .ICEauthority-c
+X8654214 -rw-r-----  1000   1000        85 22-Nov-2016 22:19 .ICEauthority-l
+
+dir_partition inode=9073779
+ 7 L Linux                33763  31 61 60305  39 22  426397696
+     ext4 blocksize=4096 Large file Sparse superblock Recover, 218 GB / 203 GiB
+Directory /home/goldbeef/home
+ 9073779 drwxr-xr-x     0      0      4096 23-Nov-2016 07:24 .
+ 8650754 drwxr-xr-x  1000   1000      4096 23-Nov-2016 07:24 ..
+ 2363413 drwxr-xr-x     0      0      4096 23-Nov-2016 07:24 goldbeef
+
+dir_partition inode=2363413
+ 7 L Linux                33763  31 61 60305  39 22  426397696
+     ext4 blocksize=4096 Large file Sparse superblock Recover, 218 GB / 203 GiB
+Directory /home/goldbeef/home/goldbee

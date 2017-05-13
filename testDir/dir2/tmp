@@ -1,0 +1,193 @@
+execve("/bin/tar", ["tar", "-cvf", "test.tar", "file1", "file2", "file3", "file4"], [/* 72 vars */]) = 0
+brk(0)                                  = 0x8b4b000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77c2000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=130496, ...}) = 0
+mmap2(NULL, 130496, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb77a2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360\24\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=30344, ...}) = 0
+mmap2(NULL, 33084, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7799000
+mmap2(0xb77a0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0xb77a0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0pF\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=133072, ...}) = 0
+mmap2(NULL, 142348, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7776000
+mmap2(0xb7796000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0xb7796000
+mmap2(0xb7798000, 3084, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7798000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\233\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1754876, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7775000
+mmap2(NULL, 1759868, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75c7000
+mmap2(0xb776f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a8000) = 0xb776f000
+mmap2(0xb7772000, 10876, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7772000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\f\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=17868, ...}) = 0
+mmap2(NULL, 20592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75c1000
+mmap2(0xb75c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0xb75c5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\20\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=247196, ...}) = 0
+mmap2(NULL, 249952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7583000
+mmap2(0xb75bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3b000) = 0xb75bf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320\n\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=13856, ...}) = 0
+mmap2(NULL, 16512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb757e000
+mmap2(0xb7581000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0xb7581000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb757d000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb757c000
+set_thread_area({entry_number:-1 -> 6, base_addr:0xb757c780, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+mprotect(0xb776f000, 8192, PROT_READ)   = 0
+mprotect(0xb7581000, 4096, PROT_READ)   = 0
+mprotect(0xb75bf000, 4096, PROT_READ)   = 0
+mprotect(0xb75c5000, 4096, PROT_READ)   = 0
+mprotect(0xb7796000, 4096, PROT_READ)   = 0
+mprotect(0xb77a0000, 4096, PROT_READ)   = 0
+mprotect(0x809b000, 4096, PROT_READ)    = 0
+mprotect(0xb77e5000, 4096, PROT_READ)   = 0
+munmap(0xb77a2000, 130496)              = 0
+statfs64("/sys/fs/selinux", 84, 0xbf9802bc) = -1 ENOENT (No such file or directory)
+statfs64("/selinux", 84, 0xbf9802bc)    = -1 ENOENT (No such file or directory)
+brk(0)                                  = 0x8b4b000
+brk(0x8b6c000)                          = 0x8b6c000
+open("/proc/filesystems", O_RDONLY|O_LARGEFILE) = 3
+fstat64(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77c1000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 334
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0xb77c1000, 4096)                = 0
+clock_gettime(CLOCK_REALTIME, {1479905179, 225533718}) = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=9428496, ...}) = 0
+mmap2(NULL, 2097152, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb737c000
+mmap2(NULL, 1462272, PROT_READ, MAP_PRIVATE, 3, 0x1c8000) = 0xb7217000
+close(3)                                = 0
+fcntl64(0, F_GETFD)                     = 0
+fcntl64(1, F_GETFD)                     = 0
+fcntl64(2, F_GETFD)                     = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+open("test.tar", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 3
+fstat64(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+clock_gettime(CLOCK_REALTIME, {1479905179, 226956737}) = 0
+fstatat64(AT_FDCWD, "file1", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77c1000
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0xb77c1000, 4096)                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=130496, ...}) = 0
+mmap2(NULL, 130496, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb77a2000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\16\0\0004\0\0\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=30560, ...}) = 0
+mmap2(NULL, 33356, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb720e000
+mmap2(0xb7215000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x6000) = 0xb7215000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\3201\0\0004\0\0\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=92036, ...}) = 0
+mmap2(NULL, 100328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb71f5000
+mmap2(0xb720a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x15000) = 0xb720a000
+mmap2(0xb720c000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb720c000
+close(4)                                = 0
+mprotect(0xb720a000, 4096, PROT_READ)   = 0
+mprotect(0xb7215000, 4096, PROT_READ)   = 0
+munmap(0xb77a2000, 130496)              = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=130496, ...}) = 0
+mmap2(NULL, 130496, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb77a2000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\31\0\0004\0\0\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=42668, ...}) = 0
+mmap2(NULL, 45632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb71e9000
+mmap2(0xb71f3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x9000) = 0xb71f3000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320\32\0\0004\0\0\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=46812, ...}) = 0
+mmap2(NULL, 50132, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0xb71dc000
+mmap2(0xb71e7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xa000) = 0xb71e7000
+close(4)                                = 0
+mprotect(0xb71e7000, 4096, PROT_READ)   = 0
+mprotect(0xb71f3000, 4096, PROT_READ)   = 0
+munmap(0xb77a2000, 130496)              = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=2329, ...}) = 0
+mmap2(NULL, 2329, PROT_READ, MAP_SHARED, 4, 0) = 0xb77c1000
+_llseek(4, 2329, [2329], SEEK_SET)      = 0
+munmap(0xb77c1000, 2329)                = 0
+close(4)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 4
+_llseek(4, 0, [0], SEEK_CUR)            = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1082, ...}) = 0
+mmap2(NULL, 1082, PROT_READ, MAP_SHARED, 4, 0) = 0xb77c1000
+_llseek(4, 1082, [1082], SEEK_SET)      = 0
+munmap(0xb77c1000, 1082)                = 0
+close(4)                                = 0
+fstat64(1, {st_mode=S_IFREG|0664, st_size=11275, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77c1000
+write(1, "file1\n", 6file1
+)                  = 6
+fstatat64(AT_FDCWD, "file1", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+fstatat64(AT_FDCWD, "file2", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+write(1, "file2\n", 6file2
+)                  = 6
+fstatat64(AT_FDCWD, "file2", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+fstatat64(AT_FDCWD, "file3", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+write(1, "file3\n", 6file3
+)                  = 6
+fstatat64(AT_FDCWD, "file3", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+fstatat64(AT_FDCWD, "file4", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+write(1, "file4\n", 6file4
+)                  = 6
+fstatat64(AT_FDCWD, "file4", {st_mode=S_IFREG|0664, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+write(3, "file1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 10240) = 10240
+clock_gettime(CLOCK_REALTIME, {1479905179, 232783635}) = 0
+clock_gettime(CLOCK_REALTIME, {1479905179, 232822819}) = 0
+close(3)                                = 0
+close(1)                                = 0
+munmap(0xb77c1000, 4096)                = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

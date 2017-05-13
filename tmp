@@ -1,0 +1,100 @@
+总用量 4468
+-rw------- 1 goldbeef goldbeef 1576380  5月 27  2006 ABS_Guide_cn.pdf
+-rw------- 1 goldbeef goldbeef 2619626  3月 15  2014 Advanced Bash-Scripting Guide_6.2.pdf
+-rwxrwxr-x 1 goldbeef goldbeef    5572 12月  7 07:33 a.out
+-rw-r--r-- 1 root     root         487 11月 23 07:18 backup.log
+-rw-rw-r-- 1 goldbeef goldbeef    3675 12月  8 07:37 cmd.3341
+-rw-rw-r-- 1 goldbeef goldbeef      13 11月 22 07:06 co_process.sh
+-rwxr-xr-x 1 goldbeef goldbeef  124932 11月 25 23:08 cp
+-rwxrw-r-- 1 goldbeef goldbeef     427 11月 22 08:05 director.sh
+-rwxrw-r-- 1 goldbeef goldbeef      24 11月 12 21:59 echoPPid.sh
+-rwxrw-r-- 1 goldbeef goldbeef       0 11月 12 17:14 empty.sh
+-rw-rw-r-- 1 goldbeef goldbeef    2093  6月 24 08:40 env1.sorted
+-rw-rw-r-- 1 goldbeef goldbeef      20 12月  1 08:18 env1.txt
+-rw-rw-r-- 1 goldbeef goldbeef    2074  6月 24 08:41 env2.sorted
+-rw-rw-r-- 1 goldbeef goldbeef      33 12月  1 08:19 env2.txt
+-rwxrw-r-- 1 goldbeef goldbeef      22 11月 24 22:55 exit.sh
+prw-rw-r-- 1 goldbeef goldbeef       0 12月  4 16:07 file.fifo
+-rwxrw-r-- 1 goldbeef goldbeef      63  6月  9 22:23 finduser
+-rwxrw-r-- 1 goldbeef goldbeef     237 12月  1 08:34 func.sh
+-rwxrw-r-- 1 goldbeef goldbeef     321 11月 22 06:55 getopt.sh
+-rw-rw-r-- 1 goldbeef goldbeef     389 11月 25 23:10 hello.c
+-rwsrwxr-- 1 goldbeef goldbeef      21 12月  3 08:09 hello.sh
+lrwxrwxrwx 1 goldbeef goldbeef       8 12月  3 08:09 hello_soft_link.sh -> hello.sh
+-rw-rw-r-- 1 goldbeef goldbeef       0 11月 17 21:58 hello world
+-rwxrw-r-- 1 goldbeef goldbeef     444 12月  7 08:37 here.sh
+-rw-rw-r-- 1 goldbeef goldbeef      27 12月  7 08:16 infile
+-rw-rw-r-- 1 goldbeef goldbeef   38003 12月  7 06:48 load.log
+-rwxrw-r-- 1 goldbeef goldbeef     442 11月 20 10:37 looper.sh
+-rwxrw-r-- 1 goldbeef goldbeef      30  6月  9 20:44 nusers
+-rw-rw-r-- 1 goldbeef goldbeef      27 12月  7 08:17 outfile
+-rw------- 1 goldbeef goldbeef       0 11月 17 08:16 prog.JkuobNbKJ6EyCP6lE3yp4BR41jNyITk2XZPHj4
+drwx------ 2 goldbeef goldbeef    4096 11月 17 08:16 prog.z8P5HL5TZAV1hxLiLRAZR9pWy3nukINhTB4xWu
+-rwxrw-r-- 1 goldbeef goldbeef     400 12月  7 08:16 redirect.sh
+-rwxrw-r-- 1 goldbeef goldbeef     513 11月 30 21:30 select.sh
+-rw-rw-r-- 1 goldbeef goldbeef    1258 11月 25 23:10 simbol
+-rwxrw-r-- 1 goldbeef goldbeef     254 11月 12 22:27 subshell.sh
+-rw-rw-r-- 1 goldbeef goldbeef       6 12月  4 09:46 test.1.bak
+-rw-rw-r-- 1 goldbeef goldbeef      26 12月  1 08:16 test.2
+-rw-rw-r-- 1 goldbeef goldbeef     160 11月 18 07:50 test.dif
+drwxrwxr-x 5 goldbeef goldbeef    4096 12月  2 07:12 testDir
+-rw-rw-r-- 1 goldbeef goldbeef   44069 11月 23 07:36 testdisk.log
+-rw------- 1 goldbeef goldbeef       0 11月 19 21:08 tet.WxO
+-rw-rw-r-- 1 goldbeef goldbeef       0 12月  8 07:39 tmp
+-rw-rw-r-- 1 goldbeef goldbeef       6 11月 20 15:01 tmp1
+-rw-rw-r-- 1 goldbeef goldbeef       6 11月 20 15:00 tmp2
+-rw-rw-r-- 1 goldbeef goldbeef    9106 12月  4 18:11 tmp.log
+-rwxrw-r-- 1 goldbeef goldbeef      58  6月  9 22:29 trace.sh
+-rw-rw-r-- 1 goldbeef goldbeef       0  6月 26 11:32 txt
+-rw-rw-r-- 1 goldbeef goldbeef    1053 12月  4 15:33 typescript
+	总用量 4476
+	drwxrwxr-x  4 goldbeef goldbeef    4096 12月  8 07:37 .
+	drwxr-xr-x 94 goldbeef goldbeef    4096 12月  8 07:37 ..
+	-rw-------  1 goldbeef goldbeef 1576380  5月 27  2006 ABS_Guide_cn.pdf
+	-rw-------  1 goldbeef goldbeef 2619626  3月 15  2014 Advanced Bash-Scripting Guide_6.2.pdf
+	-rwxrwxr-x  1 goldbeef goldbeef    5572 12月  7 07:33 a.out
+	-rw-r--r--  1 root     root         487 11月 23 07:18 backup.log
+	-rw-rw-r--  1 goldbeef goldbeef    3675 12月  8 07:37 cmd.3341
+	-rw-rw-r--  1 goldbeef goldbeef      13 11月 22 07:06 co_process.sh
+	-rwxr-xr-x  1 goldbeef goldbeef  124932 11月 25 23:08 cp
+	-rwxrw-r--  1 goldbeef goldbeef     427 11月 22 08:05 director.sh
+	-rwxrw-r--  1 goldbeef goldbeef      24 11月 12 21:59 echoPPid.sh
+	-rwxrw-r--  1 goldbeef goldbeef       0 11月 12 17:14 empty.sh
+	-rw-rw-r--  1 goldbeef goldbeef    2093  6月 24 08:40 env1.sorted
+	-rw-rw-r--  1 goldbeef goldbeef      20 12月  1 08:18 env1.txt
+	-rw-rw-r--  1 goldbeef goldbeef    2074  6月 24 08:41 env2.sorted
+	-rw-rw-r--  1 goldbeef goldbeef      33 12月  1 08:19 env2.txt
+	-rwxrw-r--  1 goldbeef goldbeef      22 11月 24 22:55 exit.sh
+	prw-rw-r--  1 goldbeef goldbeef       0 12月  4 16:07 file.fifo
+	-rwxrw-r--  1 goldbeef goldbeef      63  6月  9 22:23 finduser
+	-rwxrw-r--  1 goldbeef goldbeef     237 12月  1 08:34 func.sh
+	-rwxrw-r--  1 goldbeef goldbeef     321 11月 22 06:55 getopt.sh
+	-rw-rw-r--  1 goldbeef goldbeef     389 11月 25 23:10 hello.c
+	-rwsrwxr--  1 goldbeef goldbeef      21 12月  3 08:09 hello.sh
+	lrwxrwxrwx  1 goldbeef goldbeef       8 12月  3 08:09 hello_soft_link.sh -> hello.sh
+	-rw-rw-r--  1 goldbeef goldbeef       0 11月 17 21:58 hello world
+	-rwxrw-r--  1 goldbeef goldbeef     444 12月  7 08:37 here.sh
+	-rw-rw-r--  1 goldbeef goldbeef      27 12月  7 08:16 infile
+	-rw-rw-r--  1 goldbeef goldbeef   38003 12月  7 06:48 load.log
+	-rwxrw-r--  1 goldbeef goldbeef     442 11月 20 10:37 looper.sh
+	-rwxrw-r--  1 goldbeef goldbeef      30  6月  9 20:44 nusers
+	-rw-rw-r--  1 goldbeef goldbeef      27 12月  7 08:17 outfile
+	-rw-------  1 goldbeef goldbeef       0 11月 17 08:16 prog.JkuobNbKJ6EyCP6lE3yp4BR41jNyITk2XZPHj4
+	drwx------  2 goldbeef goldbeef    4096 11月 17 08:16 prog.z8P5HL5TZAV1hxLiLRAZR9pWy3nukINhTB4xWu
+	-rwxrw-r--  1 goldbeef goldbeef     400 12月  7 08:16 redirect.sh
+	-rwxrw-r--  1 goldbeef goldbeef     513 11月 30 21:30 select.sh
+	-rw-rw-r--  1 goldbeef goldbeef    1258 11月 25 23:10 simbol
+	-rwxrw-r--  1 goldbeef goldbeef     254 11月 12 22:27 subshell.sh
+	-rw-rw-r--  1 goldbeef goldbeef       6 12月  4 09:46 test.1.bak
+	-rw-rw-r--  1 goldbeef goldbeef      26 12月  1 08:16 test.2
+	-rw-rw-r--  1 goldbeef goldbeef     160 11月 18 07:50 test.dif
+	drwxrwxr-x  5 goldbeef goldbeef    4096 12月  2 07:12 testDir
+	-rw-rw-r--  1 goldbeef goldbeef   44069 11月 23 07:36 testdisk.log
+	-rw-------  1 goldbeef goldbeef       0 11月 19 21:08 tet.WxO
+	-rw-rw-r--  1 goldbeef goldbeef       0 12月  8 07:39 tmp
+	-rw-rw-r--  1 goldbeef goldbeef       6 11月 20 15:01 tmp1
+	-rw-rw-r--  1 goldbeef goldbeef       6 11月 20 15:00 tmp2
+	-rw-rw-r--  1 goldbeef goldbeef    9106 12月  4 18:11 tmp.log
+	-rwxrw-r--  1 goldbeef goldbeef      58  6月  9 22:29 trace.sh
+	-rw-rw-r--  1 goldbeef goldbeef       0  6月 26 11:32 txt
+	-rw-rw-r--  1 goldbeef goldbeef    1053 12月  4 15:33 typescript
